@@ -660,10 +660,6 @@ video {
   display: none !important;
 }
 
-.h-screen {
-  height: 100vh !important;
-}
-
 .h-96 {
   height: 24rem !important;
 }
@@ -718,10 +714,6 @@ video {
 
 .justify-between {
   justify-content: space-between !important;
-}
-
-.overflow-hidden {
-  overflow: hidden !important;
 }
 
 .rounded-full {
@@ -839,8 +831,16 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-screen {
+    height: 100vh !important;
+  }
+
   .sm\:h-16 {
     height: 4rem !important;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden !important;
   }
 }
 
